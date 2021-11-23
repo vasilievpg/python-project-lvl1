@@ -4,3 +4,5 @@
 [![lint](https://github.com/vasilievpg/python-project-lvl1/actions/workflows/lint.yml/badge.svg)](https://github.com/vasilievpg/python-project-lvl1/actions/workflows/lint.yml)
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+
+https://asciinema.org/a/R3boJizCymmLtY7WnMtJHzVfn
