@@ -1,12 +1,16 @@
+#!/usr/bin/env python
+
 import prompt
 from random import randint
+
+from brain_games.scripts.cli import welcome_user
 
 
 def conditions():
     print('Answer "yes" if the number is even, otherwise answer "no".')
 
 
-def brain_vevn(name):
+def brain_even(name):
     i = 1
     while i <= 3:
         random_number = randint(1, 100)
@@ -22,3 +26,13 @@ def brain_vevn(name):
             print(f"Let's try again, {name}!")
             return name
     print(f"Congratulations, {name}!")
+
+
+def main():
+    print("Welcome to the Brain Games!")
+    name = welcome_user()
+    brain_even(name)
+
+
+if __name__ == '__main__':
+    main()
