@@ -31,6 +31,7 @@ def brain_even(name):
 def main():
     print("Welcome to the Brain Games!")
     name = welcome_user()
+    conditions()
     brain_even(name)
 
 
