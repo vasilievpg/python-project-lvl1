@@ -2,7 +2,7 @@
 
 from random import randint
 
-from brain_games.scripts.cli import conditions, compare_answer
+from brain_games.scripts.cli import compare_answer
 
 
 def func_question():
