@@ -1,11 +1,11 @@
-from brain_games.scripts.cli import incorrect_answer, conditions
-from brain_games.scripts.cli import welcome_user, congratulations
+from brain_games.scripts.cli import incorrect_answer
+from brain_games.scripts.cli import welcome_user
 import prompt
 
 
 def compare_answer(func_question, func_correct_answer, text_conditions):
     name = welcome_user()
-    conditions(text_conditions)
+    print(text_conditions)
 
     for i in range(3):
         question = func_question()
@@ -20,4 +20,4 @@ def compare_answer(func_question, func_correct_answer, text_conditions):
             incorrect_answer(answer, correct_answer, name)
             return False
 
-    congratulations(name)
+    print(f"Congratulations, {name}!")

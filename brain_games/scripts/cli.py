@@ -8,14 +8,6 @@ def welcome_user():
     return name
 
 
-def conditions(text):
-    print(text)
-
-
-def congratulations(name):
-    print(f"Congratulations, {name}!")
-
-
 def incorrect_answer(answer, correct_answer, name):
     print(f"'{answer}' is wrong answer ;(. "
           f"Correct answer was '{correct_answer}'.")
