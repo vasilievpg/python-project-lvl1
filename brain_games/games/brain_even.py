@@ -1,8 +1,7 @@
 #!/usr/bin/env python
 
 from random import randint
-
-from brain_games.scripts.cli import compare_answer
+from brain_games.scripts.compare_answer import compare_answer
 
 
 def func_question():
