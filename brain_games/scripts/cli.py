@@ -8,8 +8,3 @@ def welcome_user():
     return name
 
 
-def incorrect_answer(answer, correct_answer, name):
-    print(f"'{answer}' is wrong answer ;(. "
-          f"Correct answer was '{correct_answer}'.")
-    print(f"Let's try again, {name}!")
-

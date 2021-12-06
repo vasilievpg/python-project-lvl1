@@ -5,25 +5,21 @@ from random import randint
 from brain_games.scripts.compare_answer import compare_answer
 
 
-def func_question():
-
+def func_answer():
     num_1 = randint(1, 10)
     num_2 = randint(1, 10)
-
-    return (f"{num_1} {num_2}")
-
-
-def func_correct_answer(question):
+    question = f"{num_1} {num_2}"
     num1, num2 = question.split(' ')
     num1 = int(num1)
     num2 = int(num2)
-    print(f"Число 1: {num1}")
-    print(f"Число 2: {num2}")
+    # correct_answer =
+
+    return (question, correct_answer)
 
 
 def brain_gcd():
     text_conditions = ('What is the result of the expression?')
-    compare_answer(func_question, func_correct_answer, text_conditions)
+    compare_answer(func_answer, text_conditions)
 
 
 def main():
