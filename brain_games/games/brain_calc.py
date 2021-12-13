@@ -5,14 +5,20 @@ from brain_games.scripts.compare_answer import compare_answer
 
 
 def func_answer():
+    global correct_answer
     num_1 = randint(1, 10)
     num_2 = randint(1, 10)
     operations = ('+', "-", '*')
     operation = choice(operations)
     question = f"{num_1} {operation} {num_2}"
-    correct_answer = str(eval(question))
+    if operation == '+':
+        correct_answer = num_1 + num_2
+    elif operation == '-':
+        correct_answer = num_1 - num_2
+    elif operation == '*':
+        correct_answer = num_1 * num_2
 
-    return (question, correct_answer)
+    return (question, str(correct_answer))
 
 
 def brain_calc():
