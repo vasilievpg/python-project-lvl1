@@ -18,7 +18,7 @@ def func_answer():
     elif operation == '*':
         correct_answer = num_1 * num_2
 
-    return (question, str(correct_answer))
+    return question, str(correct_answer)
 
 
 def brain_calc():

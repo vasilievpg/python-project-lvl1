@@ -8,7 +8,7 @@ def func_answer():
     question = randint(1, 100)
     correct_answer = 'yes' if question % 2 == 0 else 'no'
 
-    return (question, correct_answer)
+    return question, correct_answer
 
 
 def brain_even():

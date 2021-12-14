@@ -6,19 +6,21 @@ from brain_games.scripts.compare_answer import compare_answer
 
 
 def func_answer():
-    num_1 = randint(1, 10)
-    num_2 = randint(1, 10)
+    num_1 = randint(1, 100)
+    num_2 = randint(1, 100)
     question = f"{num_1} {num_2}"
-    num1, num2 = question.split(' ')
-    num1 = int(num1)
-    num2 = int(num2)
-    # correct_answer =
+    divider = num_1 if num_1 <= num_2 else num_2
+    for _ in range(divider):
+        if num_1 % divider == 0 and num_2 % divider == 0:
+            return question, str(divider)
+        else:
+            divider -= 1
 
-    return (question, correct_answer)
+    return question, '1'
 
 
 def brain_gcd():
-    text_conditions = ('What is the result of the expression?')
+    text_conditions = 'What is the result of the expression?'
     compare_answer(func_answer, text_conditions)
 
 
