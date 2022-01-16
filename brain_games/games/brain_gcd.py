@@ -1,7 +1,6 @@
 #!/usr/bin/env python
 
 from random import randint
-
 from brain_games.scripts.compare_answer import compare_answer
 
 
@@ -16,11 +15,11 @@ def func_answer():
         else:
             divider -= 1
 
-    return question, '1'
+    return question, "1"
 
 
 def brain_gcd():
-    text_conditions = 'What is the result of the expression?'
+    text_conditions = "What is the result of the expression?"
     compare_answer(func_answer, text_conditions)
 
 
@@ -28,5 +27,5 @@ def main():
     brain_gcd()
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
