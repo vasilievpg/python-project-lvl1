@@ -1,13 +1,14 @@
 import prompt
 from brain_games.scripts.cli import welcome_user
 
+NUMBER_OF_ROUNDS = 3
+
 
 def compare_answer(func_answer, text_conditions):
     name = welcome_user()
     print(text_conditions)
 
-    rounds = 3
-    for _ in range(rounds):
+    for _ in range(NUMBER_OF_ROUNDS):
         question, correct_answer = func_answer()
 
         print(f"Question: {question}")
