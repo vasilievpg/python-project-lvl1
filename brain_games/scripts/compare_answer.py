@@ -22,6 +22,6 @@ def compare_answer(func_answer, text_conditions):
                 f"Correct answer was '{correct_answer}'."
             )
             print(f"Let's try again, {name}!")
-            return False
+            return
 
     print(f"Congratulations, {name}!")
