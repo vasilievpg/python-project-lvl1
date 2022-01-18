@@ -24,7 +24,8 @@ def func_answer():
 
 
 def brain_prime():
-    text_conditions = 'Answer "yes" if given number is prime. ' 'Otherwise answer "no".'
+    text_conditions = ('Answer "yes" if given number is prime.'
+                       ' Otherwise answer "no".')
     compare_answer(func_answer, text_conditions)
 
 
