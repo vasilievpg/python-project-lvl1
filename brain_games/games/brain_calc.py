@@ -8,7 +8,7 @@ def func_answer():
     correct_answer = 0
     num_1 = randint(1, 10)
     num_2 = randint(1, 10)
-    operations = ('+', "-", '*')
+    operations = ('+', '-', '*')
     operation = choice(operations)
     question = f"{num_1} {operation} {num_2}"
     if operation == '+':
