@@ -5,7 +5,7 @@ from brain_games.scripts.compare_answer import compare_answer
 
 
 def func_answer():
-    global correct_answer
+    correct_answer = 0
     num_1 = randint(1, 10)
     num_2 = randint(1, 10)
     operations = ('+', "-", '*')
