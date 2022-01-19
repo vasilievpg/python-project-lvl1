@@ -4,12 +4,12 @@ from brain_games.scripts.cli import welcome_user
 NUMBER_OF_ROUNDS = 3
 
 
-def game_logic(get_question_and_answer, text_conditions):
+def game_logic(game_mod):
     name = welcome_user()
-    print(text_conditions)
+    print(game_mod.text_conditions)
 
     for _ in range(NUMBER_OF_ROUNDS):
-        question, correct_answer = get_question_and_answer()
+        question, correct_answer = game_mod.get_question_and_answer()
 
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
