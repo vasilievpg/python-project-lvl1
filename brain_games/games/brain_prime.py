@@ -1,7 +1,7 @@
-#!/usr/bin/env python
-
 from random import randint
-from brain_games.scripts.game_logic import game_logic
+
+text_conditions = ('Answer "yes" if given number is prime.'
+                   ' Otherwise answer "no".')
 
 
 def get_question_and_answer():
@@ -21,17 +21,3 @@ def get_question_and_answer():
         divider += 1
 
     return question, correct_answer
-
-
-def brain_prime():
-    text_conditions = ('Answer "yes" if given number is prime.'
-                       ' Otherwise answer "no".')
-    game_logic(get_question_and_answer, text_conditions)
-
-
-def main():
-    brain_prime()
-
-
-if __name__ == "__main__":
-    main()

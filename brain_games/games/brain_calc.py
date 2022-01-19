@@ -1,5 +1,3 @@
-#!/usr/bin/env python
-
 from random import randint, choice
 
 text_conditions = "What is the result of the expression?"

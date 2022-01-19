@@ -1,7 +1,6 @@
-#!/usr/bin/env python
-
 from random import randint
-from brain_games.scripts.game_logic import game_logic
+
+text_conditions = "What number is missing in the progression?"
 
 
 def get_question_and_answer():
@@ -23,16 +22,3 @@ def get_question_and_answer():
     question = " ".join(str(e) for e in progression)
 
     return question, str(hidden_element)
-
-
-def brain_progression():
-    text_conditions = "What number is missing in the progression?"
-    game_logic(get_question_and_answer, text_conditions)
-
-
-def main():
-    brain_progression()
-
-
-if __name__ == "__main__":
-    main()

@@ -1,7 +1,6 @@
-#!/usr/bin/env python
-
 from random import randint
-from brain_games.scripts.game_logic import game_logic
+
+text_conditions = "What is the result of the expression?"
 
 
 def get_question_and_answer():
@@ -16,16 +15,3 @@ def get_question_and_answer():
             divider -= 1
 
     return question, "1"
-
-
-def brain_gcd():
-    text_conditions = "What is the result of the expression?"
-    game_logic(get_question_and_answer, text_conditions)
-
-
-def main():
-    brain_gcd()
-
-
-if __name__ == "__main__":
-    main()
