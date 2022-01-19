@@ -11,8 +11,8 @@ def get_question_and_answer():
     progression = [str(start + i * step) for i in range(length_progression)]
 
     hidden_element_num = randint(0, length_progression - 1)
-    hidden_element = progression[hidden_element_num]
+    answer = progression[hidden_element_num]
     progression[hidden_element_num] = ".."
     question = " ".join(str(e) for e in progression)
 
-    return question, str(hidden_element)
+    return question, str(answer)

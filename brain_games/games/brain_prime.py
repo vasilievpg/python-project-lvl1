@@ -24,6 +24,6 @@ def checking_number_for_prime(number):
 def get_question_and_answer():
     number = randint(0, 1000)
     question = str(number)
-    correct_answer = checking_number_for_prime(number)
+    answer = checking_number_for_prime(number)
 
-    return question, correct_answer
+    return question, answer

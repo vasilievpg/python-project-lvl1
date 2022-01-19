@@ -6,6 +6,6 @@ text_conditions = ('Answer "yes" if the number is even, '
 
 def get_question_and_answer():
     question = randint(1, 100)
-    correct_answer = 'yes' if question % 2 == 0 else 'no'
+    answer = 'yes' if question % 2 == 0 else 'no'
 
-    return question, correct_answer
+    return question, answer

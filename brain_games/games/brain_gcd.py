@@ -16,6 +16,6 @@ def get_question_and_answer():
     num_1 = randint(1, 100)
     num_2 = randint(1, 100)
     question = f"{num_1} {num_2}"
-    divider = find_divider(num_1, num_2)
+    answer = find_divider(num_1, num_2)
 
-    return question, divider
+    return question, answer
