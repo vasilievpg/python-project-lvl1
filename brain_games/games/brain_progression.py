@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
 from random import randint
-from brain_games.scripts.compare_answer import compare_answer
+from brain_games.scripts.game_logic import game_logic
 
 
-def func_answer():
+def get_question_and_answer():
     start = randint(1, 100)
     difference = randint(1, 10)
     length_progression = randint(5, 10)
@@ -27,7 +27,7 @@ def func_answer():
 
 def brain_progression():
     text_conditions = "What number is missing in the progression?"
-    compare_answer(func_answer, text_conditions)
+    game_logic(get_question_and_answer, text_conditions)
 
 
 def main():

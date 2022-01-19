@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
 from random import randint
-from brain_games.scripts.compare_answer import compare_answer
+from brain_games.scripts.game_logic import game_logic
 
 
-def func_answer():
+def get_question_and_answer():
     question = randint(1, 100)
     correct_answer = 'yes' if question % 2 == 0 else 'no'
 
@@ -14,7 +14,7 @@ def func_answer():
 def brain_even():
     text_conditions = ('Answer "yes" if the number is even, '
                        'otherwise answer "no".')
-    compare_answer(func_answer, text_conditions)
+    game_logic(get_question_and_answer, text_conditions)
 
 
 def main():

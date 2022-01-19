@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
 from random import randint, choice
-from brain_games.scripts.compare_answer import compare_answer
+from brain_games.scripts.game_logic import game_logic
 
 
-def func_answer():
+def get_question_and_answer():
     correct_answer = 0
     num_1 = randint(1, 10)
     num_2 = randint(1, 10)
@@ -23,7 +23,7 @@ def func_answer():
 
 def brain_calc():
     text_conditions = 'What is the result of the expression?'
-    compare_answer(func_answer, text_conditions)
+    game_logic(get_question_and_answer, text_conditions)
 
 
 def main():

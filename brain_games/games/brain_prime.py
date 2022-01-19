@@ -1,10 +1,10 @@
 #!/usr/bin/env python
 
 from random import randint
-from brain_games.scripts.compare_answer import compare_answer
+from brain_games.scripts.game_logic import game_logic
 
 
-def func_answer():
+def get_question_and_answer():
     number = randint(0, 1000)
     question = str(number)
     correct_answer = "yes"
@@ -26,7 +26,7 @@ def func_answer():
 def brain_prime():
     text_conditions = ('Answer "yes" if given number is prime.'
                        ' Otherwise answer "no".')
-    compare_answer(func_answer, text_conditions)
+    game_logic(get_question_and_answer, text_conditions)
 
 
 def main():

@@ -4,7 +4,7 @@ from brain_games.scripts.cli import welcome_user
 NUMBER_OF_ROUNDS = 3
 
 
-def compare_answer(get_question_and_answer, text_conditions):
+def game_logic(get_question_and_answer, text_conditions):
     name = welcome_user()
     print(text_conditions)
 
