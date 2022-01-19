@@ -1,11 +1,13 @@
 import prompt
-from brain_games.scripts.cli import welcome_user
 
 NUMBER_OF_ROUNDS = 3
 
 
 def game_logic(game_mod):
-    name = welcome_user()
+    print("Welcome to the Brain Games!")
+    name = prompt.string('May I have your name? ')
+    print(f'Hello, {name}?')
+
     print(game_mod.text_conditions)
 
     for _ in range(NUMBER_OF_ROUNDS):
