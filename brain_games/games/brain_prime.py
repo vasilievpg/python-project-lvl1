@@ -5,16 +5,16 @@ DESCRIPTION = ('Answer "yes" if given number is prime.'
 
 
 def checking_number_for_prime(number):
-    answer = "yes"
+    answer = True
 
     if number < 2:
-        answer = "no"
+        answer = False
 
     divider = 2
 
     while divider <= number / 2:
         if number % divider == 0:
-            answer = "no"
+            answer = False
 
         divider += 1
 
@@ -24,6 +24,7 @@ def checking_number_for_prime(number):
 def get_question_and_answer():
     number = randint(0, 1000)
     question = str(number)
-    answer = checking_number_for_prime(number)
+    dict_answers = {True: 'yes', False: 'no'}
+    answer = dict_answers[checking_number_for_prime(number)]
 
     return question, answer

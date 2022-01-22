@@ -1,7 +1,7 @@
 from random import randint, choice
 from operator import add, sub, mul
 
-DESCRIPTION = "What is the result of the expression?"
+DESCRIPTION = 'What is the result of the expression?'
 
 
 def get_question_and_answer():
@@ -14,7 +14,7 @@ def get_question_and_answer():
         "*": mul,
     }
     operation = choice(list(operations))
-    question = f"{num_1} {operation} {num_2}"
+    question = f'{num_1} {operation} {num_2}'
     answer = operations[operation](num_1, num_2)
 
     return question, str(answer)
