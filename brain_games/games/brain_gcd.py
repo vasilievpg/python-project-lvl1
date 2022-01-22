@@ -4,12 +4,13 @@ DESCRIPTION = "What is the result of the expression?"
 
 
 def find_gcd(num_1, num_2):
-    divider = num_1 if num_1 <= num_2 else num_2
-    for _ in range(divider):
-        if num_1 % divider == 0 and num_2 % divider == 0:
-            return divider
+    if num_1 == 0 or num_2 == 0:
+        return max(num_1, num_2)
+    else:
+        if num_1 > num_2:
+            return find_gcd(num_1 % num_2, num_2)
         else:
-            divider -= 1
+            return find_gcd(num_1, num_2 % num_1)
 
 
 def get_question_and_answer():
@@ -19,3 +20,4 @@ def get_question_and_answer():
     answer = str(find_gcd(num_1, num_2))
 
     return question, answer
+
