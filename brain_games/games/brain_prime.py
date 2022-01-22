@@ -1,7 +1,7 @@
 from random import randint
 
-text_conditions = ('Answer "yes" if given number is prime.'
-                   ' Otherwise answer "no".')
+DESCRIPTION = ('Answer "yes" if given number is prime.'
+               ' Otherwise answer "no".')
 
 
 def checking_number_for_prime(number):

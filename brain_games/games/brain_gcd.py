@@ -1,6 +1,6 @@
 from random import randint
 
-text_conditions = "What is the result of the expression?"
+DESCRIPTION = "What is the result of the expression?"
 
 
 def find_divider(num_1, num_2):

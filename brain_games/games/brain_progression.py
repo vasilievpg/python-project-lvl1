@@ -1,6 +1,6 @@
 from random import randint
 
-text_conditions = "What number is missing in the progression?"
+DESCRIPTION = "What number is missing in the progression?"
 
 
 def get_question_and_answer():

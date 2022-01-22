@@ -1,7 +1,7 @@
 from random import randint, choice
 from operator import add, sub, mul
 
-text_conditions = "What is the result of the expression?"
+DESCRIPTION = "What is the result of the expression?"
 
 
 def get_question_and_answer():

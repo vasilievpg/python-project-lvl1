@@ -8,7 +8,7 @@ def game_logic(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}?')
 
-    print(game.text_conditions)
+    print(game.DESCRIPTION)
 
     for _ in range(NUMBER_OF_ROUNDS):
         question, correct_answer = game.get_question_and_answer()
