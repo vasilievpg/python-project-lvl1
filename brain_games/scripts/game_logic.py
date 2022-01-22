@@ -4,7 +4,7 @@ NUMBER_OF_ROUNDS = 3
 
 
 def game_logic(game):
-    print("Welcome to the Brain Games!")
+    print('Welcome to the Brain Games!')
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}?')
 
@@ -13,11 +13,11 @@ def game_logic(game):
     for _ in range(NUMBER_OF_ROUNDS):
         question, correct_answer = game.get_question_and_answer()
 
-        print(f"Question: {question}")
-        answer = prompt.string("Your answer: ")
+        print(f'Question: {question}')
+        answer = prompt.string('Your answer: ')
 
         if answer == correct_answer:
-            print("Correct!")
+            print('Correct!')
         else:
             print(
                 f"'{answer}' is wrong answer ;(. "
@@ -26,4 +26,4 @@ def game_logic(game):
             print(f"Let's try again, {name}!")
             return
 
-    print(f"Congratulations, {name}!")
+    print(f'Congratulations, {name}!')
