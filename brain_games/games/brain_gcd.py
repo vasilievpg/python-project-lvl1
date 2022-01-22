@@ -20,4 +20,3 @@ def get_question_and_answer():
     answer = str(find_gcd(num_1, num_2))
 
     return question, answer
-
