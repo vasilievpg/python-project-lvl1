@@ -4,7 +4,7 @@ DESCRIPTION = ('Answer "yes" if given number is prime.'
                ' Otherwise answer "no".')
 
 
-def checking_number_for_prime(number):
+def is_prime(number):
     answer = True
 
     if number < 2:
@@ -25,6 +25,6 @@ def get_question_and_answer():
     number = randint(0, 1000)
     question = str(number)
     dict_answers = {True: 'yes', False: 'no'}
-    answer = dict_answers[checking_number_for_prime(number)]
+    answer = dict_answers[is_prime(number)]
 
     return question, answer
