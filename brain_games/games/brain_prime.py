@@ -5,20 +5,12 @@ DESCRIPTION = ('Answer "yes" if given number is prime.'
 
 
 def is_prime(number):
-    answer = True
-
-    if number < 2:
-        answer = False
-
-    divider = 2
-
-    while divider <= number / 2:
-        if number % divider == 0:
-            answer = False
-
-        divider += 1
-
-    return answer
+    if number % 2 == 0:
+        return number == 2
+    divider = 3
+    while divider * divider <= number and number % divider != 0:
+        divider += 2
+    return divider * divider > number
 
 
 def get_question_and_answer():
