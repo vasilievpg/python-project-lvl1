@@ -1,16 +1,18 @@
+from math import sqrt
+from itertools import count, islice
 from random import randint
 
 DESCRIPTION = ('Answer "yes" if given number is prime.'
                ' Otherwise answer "no".')
 
 
-def is_prime(number):
-    if number % 2 == 0:
-        return number == 2
-    divider = 3
-    while divider * divider <= number and number % divider != 0:
-        divider += 2
-    return divider * divider > number
+def is_prime(n):
+    if n < 2:
+        return False
+    for number in islice(count(2), int(sqrt(n) - 1)):
+        if not n % number:
+            return False
+    return True
 
 
 def get_question_and_answer():
