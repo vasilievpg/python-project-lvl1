@@ -8,9 +8,9 @@ def get_question_and_answer():
     num_1 = randint(1, 10)
     num_2 = randint(1, 10)
     operations = {
-        "+": add,
-        "-": sub,
-        "*": mul,
+        '+': add,
+        '-': sub,
+        '*': mul,
     }
     operation = choice(list(operations))
     question = f'{num_1} {operation} {num_2}'
