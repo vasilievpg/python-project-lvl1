@@ -5,7 +5,6 @@ DESCRIPTION = 'What is the result of the expression?'
 
 
 def get_question_and_answer():
-    answer = 0
     num_1 = randint(1, 10)
     num_2 = randint(1, 10)
     operations = {
