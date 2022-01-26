@@ -9,7 +9,7 @@ def is_prime(number):
     if number < 2:
         return False
     for divider in range(2, int(sqrt(number) - 1)):
-        if not number % divider:
+        if number % divider == 0:
             return False
     return True
 
