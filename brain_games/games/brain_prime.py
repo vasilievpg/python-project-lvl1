@@ -18,5 +18,4 @@ def get_question_and_answer():
     number = randint(0, 1000)
     question = str(number)
     answer = 'yes' if is_prime(number) else 'no'
-
     return question, answer
