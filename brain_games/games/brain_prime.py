@@ -5,11 +5,11 @@ DESCRIPTION = ('Answer "yes" if given number is prime.'
                ' Otherwise answer "no".')
 
 
-def is_prime(n):
-    if n < 2:
+def is_prime(number):
+    if number < 2:
         return False
-    for number in range(2, int(sqrt(n) - 1)):
-        if not n % number:
+    for divider in range(2, int(sqrt(number) - 1)):
+        if not number % divider:
             return False
     return True
 
