@@ -18,17 +18,17 @@
 
 ## Демонстрация
 
-brain-even
+### Определение четного числа
 https://asciinema.org/a/VEmzOrf91J3XqMExYT62P1PAx
 
-brain-calc
+### Калькулятор
 https://asciinema.org/a/uutj2t48XqHf99AS3Hmvuqm1M
 
-brain-gcd
+### Определение наибольшего общего делителя
 https://asciinema.org/a/cw5y4F4cUEt11pu80931p1xD4
 
-brain-progression
+### Прогрессия
 https://asciinema.org/a/ijQzixiR8ADDnnUJBOIEKRaky
 
-brain-prime
+### Определение простого числа
 https://asciinema.org/a/5XckbUSYze4bISLwuHXmYpbXo
