@@ -8,7 +8,6 @@ def run(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
 
-
     for _ in range(NUMBER_OF_ROUNDS):
         question, correct_answer = game.get_question_and_answer()
 
