@@ -8,7 +8,7 @@ def run(game):
     name = prompt.string('May I have your name? ')
     print(f'Hello, {name}!')
 
-    if game is None:
+    if game:
         return
 
     for _ in range(NUMBER_OF_ROUNDS):
