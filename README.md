@@ -22,13 +22,13 @@
 [![asciicast](https://asciinema.org/a/wbSd8Z7uRc1epKLdfXIap8TVl.svg)](https://asciinema.org/a/wbSd8Z7uRc1epKLdfXIap8TVl)
 
 ### Калькулятор
-https://asciinema.org/a/uutj2t48XqHf99AS3Hmvuqm1M
+[![asciicast](https://asciinema.org/a/NBDdr8TEZ5kqK2jNhU6tNYJmg.svg)](https://asciinema.org/a/NBDdr8TEZ5kqK2jNhU6tNYJmg)
 
 ### Определение наибольшего общего делителя
-https://asciinema.org/a/cw5y4F4cUEt11pu80931p1xD4
+[![asciicast](https://asciinema.org/a/S310AaHh3iXDRrtjU4HiRTgX9.svg)](https://asciinema.org/a/S310AaHh3iXDRrtjU4HiRTgX9)
 
 ### Прогрессия
-https://asciinema.org/a/ijQzixiR8ADDnnUJBOIEKRaky
+[![asciicast](https://asciinema.org/a/ryH2WFoEE7hxr7qUhsVQRESUr.svg)](https://asciinema.org/a/ryH2WFoEE7hxr7qUhsVQRESUr)
 
 ### Определение простого числа
-https://asciinema.org/a/5XckbUSYze4bISLwuHXmYpbXo
+[![asciicast](https://asciinema.org/a/T2UO44b6bBmlZXEXdewS7rJhr.svg)](https://asciinema.org/a/T2UO44b6bBmlZXEXdewS7rJhr)
