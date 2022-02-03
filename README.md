@@ -19,7 +19,7 @@
 ## Демонстрация
 
 ### Определение четного числа
-https://asciinema.org/a/VEmzOrf91J3XqMExYT62P1PAx
+[![asciicast](https://asciinema.org/a/wbSd8Z7uRc1epKLdfXIap8TVl.svg)](https://asciinema.org/a/wbSd8Z7uRc1epKLdfXIap8TVl)
 
 ### Калькулятор
 https://asciinema.org/a/uutj2t48XqHf99AS3Hmvuqm1M
